@@ -3,11 +3,10 @@
 div{
     background-color: aquamarine;
     height: 250px;
-    width: 150px;
+    width: 350px;
     display: flex;
-    flex-wrap: wrap;
-    /* flex-direction:row; */
-    align-items: stretch;
+    flex-flow:row wrap;
+  align-items: stretch;
     
 }
 
